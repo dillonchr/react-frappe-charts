@@ -1,0 +1,71 @@
+{
+  "_from": "react-comps-svg-charts",
+  "_id": "react-comps-svg-charts@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha1-X10QEQn9vwvTa4WjdjU8efgQue4=",
+  "_location": "/react-comps-svg-charts",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-comps-svg-charts",
+    "name": "react-comps-svg-charts",
+    "escapedName": "react-comps-svg-charts",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-comps-svg-charts/-/react-comps-svg-charts-1.0.5.tgz",
+  "_shasum": "5f5d101109fdbf0bd36b85a376353c79f810b9ee",
+  "_spec": "react-comps-svg-charts",
+  "_where": "C:\\Users\\ChristensenD.KALIBRATE\\git\\react-frappe-charts",
+  "author": {
+    "name": "Charles R. Dantas",
+    "email": "charles.rochati@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/charlesrochati/react-svg-charts/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "frappe-charts": "0.0.6",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "deprecated": false,
+  "description": "SVG-Based charts for React.",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "lodash": "^4.17.4",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.6.0",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "homepage": "https://github.com/charlesrochati/react-svg-charts#readme",
+  "license": "MIT",
+  "main": "dist/lib.js",
+  "name": "react-comps-svg-charts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesrochati/react-svg-charts.git"
+  },
+  "scripts": {
+    "build": "npm run clean && webpack --config webpack.config.js --progress --profile --colors",
+    "clean": "rimraf dist"
+  },
+  "version": "1.0.5"
+}
